@@ -7,6 +7,8 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: rgb(48, 48, 49);
+    font-family: "sans-pro";
 }
 
 .container {
@@ -15,7 +17,6 @@ body {
 
 .aside {
     color: rgb(48, 48, 49);
-    font-family: "sans-pro";
     background: #f5f5f7;
     padding: 5px 0px;
     height: 40px;
@@ -26,30 +27,141 @@ body {
 }
 
 .top-bar {
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    color: rgb(48, 48, 49);
     width: 80%;
     margin: 0 auto;
 }
 
 .center-bar {
-    margin-top: 50px;
+    top: 50px;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 0, 0,0.07);
 }
 
 .nav-list {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 20px;
-    font-family: "sans-pro";
     width: 80%;
     margin: 0 auto;
     color: rgb(48, 48, 49);
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
+    justify-content: space-between;
+    padding: 0;
 }
 
 .nav-list>li>img {
     width: 20px;
+}
+.main{
+    margin-top: 120px;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+}
+.main>p>i{
+    margin-left: 5px;
+    font-size: 12px;
+}
+.banner{
+    background: #000;
+    height: 600px;
+    width: 100%;
+    color: #fff;
+    padding-top: 40px;
+
+
+}
+.banner h1, .banner-1 h1{
+    font-size: 70px;
+    font-weight: 900;
+    line-height: 30px;
+}
+.main h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+.banner-image{
+    background-image: url(.//img/hero_iphone15pro__i70z9oz3hj2i_largetall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.main span , .card-section span{
+    color: #2997ff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+}
+.main a , .card-section a{
+    text-decoration: none;
+    color: #2997ff;
+}
+.main span i ,.card-section span i{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.banner-1{
+    background-image: url(./img/hero_iphone15_announce__uuemlcwczn6u_largetall.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    padding-top: 80px;
+}
+.watch{
+    background: #000;
+    padding-top: 80px;
+}
+.watch-img{
+    background-image: url(./img/hero_apple_watch_series_9_order__d0fi9mb84dci_largetall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.card-section,.card-section-2 , .card-section-3{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+}
+.card-section-2,.card-section-3{
+    margin-top: 15px;
+}
+.watch-card,.carbon-card{
+    background: #fbfbfd;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    padding-top: 80px;
+}
+.card-section h2{
+    text-align: center;
+    font-weight: 400;
+}
+#play{
+    font-size: 30px;
+}
+.card-section-2 h2{
+    width: 50%;
+    margin: 0;
+    padding: 0;
+}
+.card-section-2 .carbon-card h2{
+    margin-top: 12px;
+    font-size: 27px;
+}
+.card-section span, .card-section-2 span{
+    font-size: 25px;
 }
