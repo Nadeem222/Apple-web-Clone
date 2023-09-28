@@ -1,0 +1,55 @@
+@font-face {
+    font-family: "sans-pro";
+    src: url(./font/SFPRODISPLAYREGULAR.OTF);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.aside {
+    color: rgb(48, 48, 49);
+    font-family: "sans-pro";
+    background: #f5f5f7;
+    padding: 5px 0px;
+    height: 40px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    top: 0;
+}
+
+.top-bar {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(48, 48, 49);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.center-bar {
+    margin-top: 50px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "sans-pro";
+    width: 80%;
+    margin: 0 auto;
+    color: rgb(48, 48, 49);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.nav-list>li>img {
+    width: 20px;
+}
