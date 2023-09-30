@@ -105,7 +105,7 @@ body {
     color: #2997ff;
 }
 .main span i ,.card-section span i{
-    font-size: 20px;
+    font-size: 15px;
     margin-left: 5px;
 }
 .banner-1{
@@ -143,25 +143,72 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
-    padding-top: 80px;
+    height: 600px;
+    padding-top: 40px;
 }
 .card-section h2{
     text-align: center;
     font-weight: 400;
 }
 #play{
-    font-size: 30px;
+    font-size: 25px;
 }
 .card-section-2 h2{
-    width: 50%;
+    width: 460px;
     margin: 0;
     padding: 0;
 }
-.card-section-2 .carbon-card h2{
+.carbon-card h2 , .watch-card h2{
     margin-top: 12px;
-    font-size: 27px;
+    font-size: 22px;
+    margin: 5px;
+}
+h1{
+    font-size: 40px;
+    margin: 0;
+}
+.carbon-card-2 h1{
+    margin: 0;
 }
 .card-section span, .card-section-2 span{
-    font-size: 25px;
+    font-size: 20px;
+}
+.watch-card{
+    background-image: url(./img/promo_apple_watch_ultra2_order__dyxqj5ia98om_large.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    
+}
+.carbon-card{
+    background-image: url(./img/promo_carbon_neutral__fmzt9ypcw9e2_large.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+sup{
+    font-weight: 100;
+    font-size: 12px;
+}
+.trade-in-card{
+    background-image: url(./img/promo_iphone_tradein__bugw15ka691e_large.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.iPhone-card{
+    background-image: url(./img/promo_shop_iphone__c5oza9nrkf42_large.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.airpods-card{
+    background-image: url(./img/promo_airpods_pro_order__d8xv36p4uwae_large.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.airpods-card h1, .airpods-card h2{
+    color: #fff;
+}
+.card{
+    background-image: url(./img/tile__cauwwcyyn9hy_large.jpg);
 }
